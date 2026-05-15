@@ -68,9 +68,14 @@
         .nav-links {
             display: flex;
             gap: 30px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            align-items: center;
         }
 
         .nav-links a {
+            display: inline-block;
             text-decoration: none;
             color: chocolate;
             font-weight: 600;
@@ -161,9 +166,12 @@
                     top: 60px;
                     left: 0;
                     right: 0;
-                    background:#667eea;
+                    background: #667eea;
                     flex-direction: column;
-                    padding: 1rem 0;
+                    padding: 0.75rem 0;
+                    margin: 0;
+                    list-style: none;
+                    text-align: center;
                     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
                     transform: translateY(-100%);
                     opacity: 0;
@@ -177,7 +185,12 @@
                     visibility: visible;
                 }
                 .navbar .nav-links li{
-                    margin: 1rem 0;
+                    margin: 0.8rem 0;
+                    list-style: none;
+                }
+                .navbar .nav-links a {
+                    display: block;
+                    padding: 0.8rem 1rem;
                 }
                 .hero h1{
                     font-size: 2rem;
@@ -1133,4 +1146,5 @@ function showSlides(n) {
 }
    </script>
 </body>
+</html>
 </html>
